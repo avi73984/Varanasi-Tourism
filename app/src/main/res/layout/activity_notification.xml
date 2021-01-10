@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".notification">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txt1"
+        android:text="14/01/19- makar sankranti"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt1"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:id="@+id/txt2"
+        android:text="4/03/19- holi celebration"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt2"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:id="@+id/txt3"
+        android:text="14/01/19 ram navmai"/>
+
+</RelativeLayout>
